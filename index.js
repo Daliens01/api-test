@@ -5,7 +5,6 @@ const UsersRoute = require("./src/routes/UsersRoute")
 
 const app = express()
 const port = process.env.PORT || 4000;
-
 app.use(cors());
 //middleware
 app.use(express.json());
